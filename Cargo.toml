@@ -1,0 +1,13 @@
+[package]
+name = "rs-epoch-gc"
+version = "1.0.0"
+edition = "2021"
+description = "Epoch-based garbage collection for lock-free data structures"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-epoch-gc"
+keywords = ["rust", "epoch-gc", "memory-reclamation", "lock-free", "concurrency"]
+
+[[bin]]
+name = "rs_epoch_gc"
+path = "main.rs"
